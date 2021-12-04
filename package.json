@@ -1,16 +1,16 @@
 {
 	"name": "mygulp",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Gulp plugin for all in one static site building.",
 	"main": "gulpfile.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/kasperlover/mygulp"
+		"url": "https://github.com/hassanallaham/mygulp"
 	},
 	"bugs": {
-		"url": "https://github.com/kasperlover/mygulp/issues"
+		"url": "https://github.com/hassanallaham/mygulp/issues"
 	},
-	"author": "Kasper Lover <kasperlover@hotmail.com>",
+	"author": "Hassan Allaham <hassanallaham@hotmail.com>",
 	"license": "MIT",
 	"bin": {
 		"site": "bin/cli.js"
