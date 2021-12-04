@@ -1,6 +1,6 @@
 {
 	"name": "mygulp",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Gulp plugin for all in one static site building.",
 	"main": "gulpfile.js",
 	"repository": {

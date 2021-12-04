@@ -16,11 +16,11 @@ Main features:
 We recommend using yarn insted of npm.
 
 ```bash
-yarn add gulp-site
+yarn add mygulp
 ```
 
 ```bash
-npm i gulp-site
+npm i mygulp
 ```
 
 ## Usage
@@ -30,13 +30,13 @@ First time site generation:
 ```bash
 mkdir my-new-site && cd my-new-site
 yarn init
-yarn add gulp-site
+yarn add mygulp
 ```
 
 ```bash
 mkdir my-new-site && cd my-new-site
 npm init
-npm i gulp-site
+npm i mygulp
 ```
 
 Add to **package.json** scripts section:
@@ -69,7 +69,7 @@ Enjoy.
 
 ## Options
 
-You can configure gulp-site builder with **config.yml**
+You can configure mygulp builder with **config.yml**
 
 ```yaml
 # Your project's server will run on localhost:xxxx at this port
@@ -183,7 +183,7 @@ body.feedback_form}} {{> feedback_form}} {{/with}}
 **description:** &mdash; page head description tag
 **keywords:** &mdash; page head keywords tag
 **index:** &mdash; boolean type, declare page indexation, indexed page (index: true) will be available in `sitemap.xml` with date of last file changing. Not indexed page (index: false) will de dissallowed in `robots.txt`
-**og:** &mdash; open graph data, used in `meta.html` partial provided by gulp-site. Read about it in partials.
+**og:** &mdash; open graph data, used in `meta.html` partial provided by mygulp. Read about it in partials.
 **cdn:** &mdash; contain js and css array properties with scripts and styles available only on this page
 
 ### `layouts`
@@ -218,7 +218,7 @@ Partial files can have the extension `.html`, `.hbs`, or `.handlebars`. Each wil
 {{> header}}
 ```
 
-Gulp-site provide partial {{> meta}} for meta tags generation:
+Mygulp provide partial {{> meta}} for meta tags generation:
 
 ```html
 <meta name="description" content="{{description}}" />
@@ -401,7 +401,7 @@ contact:
     time:
 ```
 
-Property `tagID` used for Google Tag Manager code placement in the default layout provided by gulp-site.
+Property `tagID` used for Google Tag Manager code placement in the default layout provided by mygulp.
 
 #### `data catalog`
 
