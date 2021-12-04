@@ -1,11 +1,12 @@
 name: new site
 language: ru
-tagID:
+tagID: 
 
 about: short description
 description: full description
 
 contact:
-    phone:
-    email:
-    time:
+  phone:
+  email:
+  time:
+

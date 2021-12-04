@@ -11,7 +11,7 @@ const MODULE_ROOT = path.resolve(path.dirname(__filename), '../');
 //console.log('CWD: ', APP_ROOT);
 //console.log('MODULE: ', MODULE_ROOT);
 
-let [task] = yargs.argv._ || 'default';
+let [ task ] = yargs.argv._ || 'default';
 let { production } = yargs.argv;
 
 let gulpFile = path.join(APP_ROOT, 'gulpfile.js');
